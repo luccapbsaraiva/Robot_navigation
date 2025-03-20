@@ -1,0 +1,149 @@
+[0.755s] Invoking command in '/home/luccapbs/Desktop/Robotica/APS2_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/luccapbs/Desktop/Robotica/APS2_ws/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description
+[1.097s] -- The C compiler identification is GNU 9.4.0
+[1.350s] -- The CXX compiler identification is GNU 9.4.0
+[1.421s] -- Check for working C compiler: /usr/bin/cc
+[1.802s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.818s] -- Detecting C compiler ABI info
+[2.168s] -- Detecting C compiler ABI info - done
+[2.317s] -- Detecting C compile features
+[2.323s] -- Detecting C compile features - done
+[2.351s] -- Check for working CXX compiler: /usr/bin/c++
+[2.765s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.766s] -- Detecting CXX compiler ABI info
+[3.022s] -- Detecting CXX compiler ABI info - done
+[3.090s] -- Detecting CXX compile features
+[3.094s] -- Detecting CXX compile features - done
+[3.118s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.203s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.206s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.182s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[4.310s] -- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+[4.316s] -- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+[4.320s] -- Found gazebo_plugins: 3.5.3 (/opt/ros/foxy/share/gazebo_plugins/cmake)
+[4.509s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.537s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.788s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.870s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.157s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.388s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.396s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.401s] -- Looking for pthread.h
+[5.644s] -- Looking for pthread.h - found
+[5.645s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.977s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.978s] -- Looking for pthread_create in pthreads
+[6.165s] -- Looking for pthread_create in pthreads - not found
+[6.166s] -- Looking for pthread_create in pthread
+[6.354s] -- Looking for pthread_create in pthread - found
+[6.357s] -- Found Threads: TRUE  
+[7.136s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[7.141s] -- Checking for module 'bullet>=2.82'
+[7.172s] --   Found bullet, version 2.88
+[7.485s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[7.645s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[7.779s] -- Found assimp: /usr/include (found version "5.0.0") 
+[7.870s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[7.975s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[8.047s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[8.063s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.094s] -- Searching for dependencies of ignition-math6
+[8.102s] -- Looking for OGRE...
+[8.104s] -- OGRE_PREFIX_WATCH changed.
+[8.116s] -- Checking for module 'OGRE'
+[8.150s] --   Found OGRE, version 1.9.0
+[8.245s] -- Found Ogre Ghadamon (1.9.0)
+[8.277s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[8.314s] -- Looking for OGRE_Paging...
+[8.339s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[8.339s] -- Looking for OGRE_Terrain...
+[8.362s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[8.362s] -- Looking for OGRE_Property...
+[8.385s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[8.386s] -- Looking for OGRE_RTShaderSystem...
+[8.413s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[8.413s] -- Looking for OGRE_Volume...
+[8.437s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[8.438s] -- Looking for OGRE_Overlay...
+[8.466s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[9.008s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.014s] -- Looking for ignition-transport8 -- found version 8.5.1
+[9.015s] -- Searching for dependencies of ignition-transport8
+[9.090s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[9.102s] -- Checking for module 'libzmq >= 4'
+[9.144s] --   Found libzmq , version 4.3.2
+[9.243s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[9.257s] -- Checking for module 'uuid'
+[9.306s] --   Found uuid, version 2.34.0
+[9.430s] -- Found UUID: TRUE  
+[9.437s] -- Looking for ignition-msgs5 -- found version 5.11.1
+[9.437s] -- Searching for dependencies of ignition-msgs5
+[9.487s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.501s] -- Checking for module 'tinyxml2'
+[9.544s] --   Found tinyxml2, version 6.2.0
+[9.638s] -- Looking for ignition-msgs5 -- found version 5.11.1
+[9.645s] -- Looking for ignition-common3 -- found version 3.17.1
+[9.647s] -- Searching for dependencies of ignition-common3
+[9.650s] -- Looking for dlfcn.h - found
+[9.653s] -- Looking for libdl - found
+[9.657s] -- Found DL: TRUE  
+[9.683s] -- Searching for <ignition-common3> component [graphics]
+[9.693s] -- Looking for ignition-common3-graphics -- found version 3.17.1
+[9.697s] -- Searching for dependencies of ignition-common3-graphics
+[9.698s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.712s] -- Looking for ignition-fuel_tools4 -- found version 4.9.2
+[9.715s] -- Searching for dependencies of ignition-fuel_tools4
+[9.901s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[9.928s] -- Checking for module 'jsoncpp'
+[9.961s] --   Found jsoncpp, version 1.7.4
+[10.058s] -- Found JSONCPP: TRUE  
+[10.073s] -- Checking for module 'libzip'
+[10.112s] --   Found libzip, version 1.5.1
+[10.202s] -- Found ZIP: TRUE  
+[10.205s] -- Looking for ignition-common3 -- found version 3.17.1
+[10.207s] -- Looking for ignition-math6 -- found version 6.15.1
+[10.208s] -- Looking for ignition-msgs5 -- found version 5.11.1
+[10.213s] -- Gazebo version: 11.15
+[11.267s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[11.491s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.498s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.500s] -- Added test 'lint_cmake' to check CMake code style
+[11.503s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[11.506s] -- Added test 'xmllint' to check XML markup files
+[11.519s] -- Configuring done
+[11.528s] -- Generating done
+[11.546s] -- Build files have been written to: /home/luccapbs/Desktop/Robotica/APS2_ws/build/robot_description
+[11.572s] Invoked command in '/home/luccapbs/Desktop/Robotica/APS2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/luccapbs/Desktop/Robotica/APS2_ws/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description
+[11.579s] Invoking command in '/home/luccapbs/Desktop/Robotica/APS2_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/luccapbs/Desktop/Robotica/APS2_ws/build/robot_description -- -j3 -l3
+[11.741s] Invoked command in '/home/luccapbs/Desktop/Robotica/APS2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/luccapbs/Desktop/Robotica/APS2_ws/build/robot_description -- -j3 -l3
+[11.755s] Invoking command in '/home/luccapbs/Desktop/Robotica/APS2_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/luccapbs/Desktop/Robotica/APS2_ws/build/robot_description
+[11.782s] -- Install configuration: ""
+[11.782s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//urdf
+[11.783s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//urdf/robot.urdf.xacro
+[11.783s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//urdf/inertial_macros.xacro
+[11.784s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//urdf/robot_core.xacro
+[11.784s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//urdf/sensors.xacro
+[11.785s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//launch
+[11.785s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//launch/robot_simulation.launch.py
+[11.786s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//rviz
+[11.786s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//rviz/robot_vis.rviz
+[11.787s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//world
+[11.787s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//world/house
+[11.788s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//world/house/model.sdf
+[11.788s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//world/house/model.config
+[11.789s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//world/world.world
+[11.790s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[11.790s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[11.791s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[11.792s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[11.796s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description/environment/path.sh
+[11.796s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description/environment/path.dsv
+[11.796s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description/local_setup.bash
+[11.796s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description/local_setup.sh
+[11.797s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description/local_setup.zsh
+[11.797s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description/local_setup.dsv
+[11.797s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description/package.dsv
+[11.797s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[11.797s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[11.797s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[11.798s] -- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description/package.xml
+[11.817s] Invoked command in '/home/luccapbs/Desktop/Robotica/APS2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/luccapbs/Desktop/Robotica/APS2_ws/build/robot_description

@@ -1,0 +1,313 @@
+[0.000000] (-) TimerEvent: {}
+[0.000278] (navigation) JobQueued: {'identifier': 'navigation', 'dependencies': OrderedDict()}
+[0.000392] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.000459] (navigation) JobStarted: {'identifier': 'navigation'}
+[0.045334] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.103229] (-) TimerEvent: {}
+[0.204550] (-) TimerEvent: {}
+[0.305005] (-) TimerEvent: {}
+[0.406042] (-) TimerEvent: {}
+[0.506553] (-) TimerEvent: {}
+[0.607219] (-) TimerEvent: {}
+[0.707967] (-) TimerEvent: {}
+[0.801373] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[0.805649] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/luccapbs/Desktop/Robotica/APS2_ws/src/robot_description', '-DCMAKE_INSTALL_PREFIX=/home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description'], 'cwd': '/home/luccapbs/Desktop/Robotica/APS2_ws/build/robot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'luccapbs'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/luccapbs'), ('OLDPWD', '/home/luccapbs/Desktop/Robotica/APS2_ws/src'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1262'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'luccapbs'), ('JOURNAL_STREAM', '8:32688'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luccapbs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1328,unix/ubuntu:/tmp/.ICE-unix/1328'), ('INVOCATION_ID', '6133db70293447399ab1deaa27ca25a8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f1549df1_67c6_48f4_9c40_a0b81577d2da'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.20RO32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luccapbs/Desktop/Robotica/APS2_ws/build/robot_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-wayland:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.808414] (-) TimerEvent: {}
+[0.911144] (-) TimerEvent: {}
+[1.015571] (-) TimerEvent: {}
+[1.116447] (-) TimerEvent: {}
+[1.148045] (robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.216597] (-) TimerEvent: {}
+[1.317087] (-) TimerEvent: {}
+[1.400665] (robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.423108] (-) TimerEvent: {}
+[1.472433] (robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.523252] (-) TimerEvent: {}
+[1.623661] (-) TimerEvent: {}
+[1.724790] (-) TimerEvent: {}
+[1.831788] (-) TimerEvent: {}
+[1.851164] (robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.867533] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.932566] (-) TimerEvent: {}
+[2.034371] (-) TimerEvent: {}
+[2.137463] (-) TimerEvent: {}
+[2.219350] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.237626] (-) TimerEvent: {}
+[2.338145] (-) TimerEvent: {}
+[2.368263] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.373692] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.401603] (robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.438393] (-) TimerEvent: {}
+[2.538990] (-) TimerEvent: {}
+[2.643075] (-) TimerEvent: {}
+[2.683250] (navigation) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/navigation', 'build', '--build-base', '/home/luccapbs/Desktop/Robotica/APS2_ws/build/navigation/build', 'install', '--record', '/home/luccapbs/Desktop/Robotica/APS2_ws/build/navigation/install.log', '--install-scripts', '$base/lib/navigation', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/luccapbs/Desktop/Robotica/APS2_ws/src/navigation', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'luccapbs', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/luccapbs', 'OLDPWD': '/home/luccapbs/Desktop/Robotica/APS2_ws/src', 'DESKTOP_SESSION': 'ubuntu-wayland', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_BR.UTF-8', 'MANAGERPID': '1262', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'luccapbs', 'JOURNAL_STREAM': '8:32688', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'luccapbs', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1328,unix/ubuntu:/tmp/.ICE-unix/1328', 'INVOCATION_ID': '6133db70293447399ab1deaa27ca25a8', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f1549df1_67c6_48f4_9c40_a0b81577d2da', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-wayland', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.20RO32', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-wayland', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/luccapbs/Desktop/Robotica/APS2_ws/build/navigation', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-wayland:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/luccapbs/Desktop/Robotica/APS2_ws/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luccapbs/Desktop/Robotica/APS2_ws/install/navigation/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[2.747060] (-) TimerEvent: {}
+[2.816455] (robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.816782] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.848220] (-) TimerEvent: {}
+[2.951060] (-) TimerEvent: {}
+[3.051472] (-) TimerEvent: {}
+[3.073062] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.141209] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.144833] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.151647] (-) TimerEvent: {}
+[3.169250] (robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.252241] (-) TimerEvent: {}
+[3.254464] (robot_description) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.256962] (robot_description) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.352408] (-) TimerEvent: {}
+[3.453008] (-) TimerEvent: {}
+[3.533682] (navigation) StdoutLine: {'line': b'running egg_info\n'}
+[3.538026] (navigation) StdoutLine: {'line': b'creating ../../build/navigation/navigation.egg-info\n'}
+[3.538520] (navigation) StdoutLine: {'line': b'writing ../../build/navigation/navigation.egg-info/PKG-INFO\n'}
+[3.538773] (navigation) StdoutLine: {'line': b'writing dependency_links to ../../build/navigation/navigation.egg-info/dependency_links.txt\n'}
+[3.539049] (navigation) StdoutLine: {'line': b'writing entry points to ../../build/navigation/navigation.egg-info/entry_points.txt\n'}
+[3.539624] (navigation) StdoutLine: {'line': b'writing requirements to ../../build/navigation/navigation.egg-info/requires.txt\n'}
+[3.539809] (navigation) StdoutLine: {'line': b'writing top-level names to ../../build/navigation/navigation.egg-info/top_level.txt\n'}
+[3.543705] (navigation) StdoutLine: {'line': b"writing manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'\n"}
+[3.553137] (-) TimerEvent: {}
+[3.653702] (-) TimerEvent: {}
+[3.694398] (navigation) StdoutLine: {'line': b"reading manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'\n"}
+[3.703238] (navigation) StdoutLine: {'line': b"writing manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'\n"}
+[3.709421] (navigation) StdoutLine: {'line': b'running build\n'}
+[3.709963] (navigation) StdoutLine: {'line': b'running build_py\n'}
+[3.710722] (navigation) StdoutLine: {'line': b'creating /home/luccapbs/Desktop/Robotica/APS2_ws/build/navigation/build\n'}
+[3.711260] (navigation) StdoutLine: {'line': b'creating /home/luccapbs/Desktop/Robotica/APS2_ws/build/navigation/build/lib\n'}
+[3.711643] (navigation) StdoutLine: {'line': b'creating /home/luccapbs/Desktop/Robotica/APS2_ws/build/navigation/build/lib/navigation\n'}
+[3.712127] (navigation) StdoutLine: {'line': b'copying navigation/lidar_node.py -> /home/luccapbs/Desktop/Robotica/APS2_ws/build/navigation/build/lib/navigation\n'}
+[3.715421] (navigation) StdoutLine: {'line': b'copying navigation/__init__.py -> /home/luccapbs/Desktop/Robotica/APS2_ws/build/navigation/build/lib/navigation\n'}
+[3.716199] (navigation) StdoutLine: {'line': b'running install\n'}
+[3.718313] (navigation) StdoutLine: {'line': b'running install_lib\n'}
+[3.729826] (navigation) StdoutLine: {'line': b'creating /home/luccapbs/Desktop/Robotica/APS2_ws/install/navigation/lib/python3.8/site-packages/navigation\n'}
+[3.730502] (navigation) StdoutLine: {'line': b'copying /home/luccapbs/Desktop/Robotica/APS2_ws/build/navigation/build/lib/navigation/lidar_node.py -> /home/luccapbs/Desktop/Robotica/APS2_ws/install/navigation/lib/python3.8/site-packages/navigation\n'}
+[3.732387] (navigation) StdoutLine: {'line': b'copying /home/luccapbs/Desktop/Robotica/APS2_ws/build/navigation/build/lib/navigation/__init__.py -> /home/luccapbs/Desktop/Robotica/APS2_ws/install/navigation/lib/python3.8/site-packages/navigation\n'}
+[3.733852] (navigation) StdoutLine: {'line': b'byte-compiling /home/luccapbs/Desktop/Robotica/APS2_ws/install/navigation/lib/python3.8/site-packages/navigation/lidar_node.py to lidar_node.cpython-38.pyc\n'}
+[3.737749] (navigation) StdoutLine: {'line': b'byte-compiling /home/luccapbs/Desktop/Robotica/APS2_ws/install/navigation/lib/python3.8/site-packages/navigation/__init__.py to __init__.cpython-38.pyc\n'}
+[3.738475] (navigation) StdoutLine: {'line': b'running install_data\n'}
+[3.739103] (navigation) StdoutLine: {'line': b'creating /home/luccapbs/Desktop/Robotica/APS2_ws/install/navigation/share/ament_index\n'}
+[3.739556] (navigation) StdoutLine: {'line': b'creating /home/luccapbs/Desktop/Robotica/APS2_ws/install/navigation/share/ament_index/resource_index\n'}
+[3.739926] (navigation) StdoutLine: {'line': b'creating /home/luccapbs/Desktop/Robotica/APS2_ws/install/navigation/share/ament_index/resource_index/packages\n'}
+[3.740387] (navigation) StdoutLine: {'line': b'copying resource/navigation -> /home/luccapbs/Desktop/Robotica/APS2_ws/install/navigation/share/ament_index/resource_index/packages\n'}
+[3.740927] (navigation) StdoutLine: {'line': b'copying package.xml -> /home/luccapbs/Desktop/Robotica/APS2_ws/install/navigation/share/navigation\n'}
+[3.741425] (navigation) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.745451] (navigation) StdoutLine: {'line': b'Copying ../../build/navigation/navigation.egg-info to /home/luccapbs/Desktop/Robotica/APS2_ws/install/navigation/lib/python3.8/site-packages/navigation-0.0.0-py3.8.egg-info\n'}
+[3.747587] (navigation) StdoutLine: {'line': b'running install_scripts\n'}
+[3.753870] (-) TimerEvent: {}
+[3.814849] (navigation) StdoutLine: {'line': b"writing list of installed files to '/home/luccapbs/Desktop/Robotica/APS2_ws/build/navigation/install.log'\n"}
+[3.855118] (-) TimerEvent: {}
+[3.895033] (navigation) CommandEnded: {'returncode': 0}
+[3.959544] (-) TimerEvent: {}
+[4.000379] (navigation) JobEnded: {'identifier': 'navigation', 'rc': 0}
+[4.059750] (-) TimerEvent: {}
+[4.160622] (-) TimerEvent: {}
+[4.233388] (robot_description) StdoutLine: {'line': b'-- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)\n'}
+[4.260832] (-) TimerEvent: {}
+[4.360832] (robot_description) StdoutLine: {'line': b'-- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)\n'}
+[4.361152] (-) TimerEvent: {}
+[4.367218] (robot_description) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)\n'}
+[4.371572] (robot_description) StdoutLine: {'line': b'-- Found gazebo_plugins: 3.5.3 (/opt/ros/foxy/share/gazebo_plugins/cmake)\n'}
+[4.461309] (-) TimerEvent: {}
+[4.560607] (robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.562764] (-) TimerEvent: {}
+[4.588164] (robot_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[4.663060] (-) TimerEvent: {}
+[4.763574] (-) TimerEvent: {}
+[4.838855] (robot_description) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[4.863717] (-) TimerEvent: {}
+[4.920675] (robot_description) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[4.963841] (-) TimerEvent: {}
+[5.064231] (-) TimerEvent: {}
+[5.164692] (-) TimerEvent: {}
+[5.207764] (robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.265190] (-) TimerEvent: {}
+[5.365859] (-) TimerEvent: {}
+[5.439556] (robot_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[5.446419] (robot_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.452018] (robot_description) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.465950] (-) TimerEvent: {}
+[5.566497] (-) TimerEvent: {}
+[5.667006] (-) TimerEvent: {}
+[5.695386] (robot_description) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.695848] (robot_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.779078] (-) TimerEvent: {}
+[5.879583] (-) TimerEvent: {}
+[5.991098] (-) TimerEvent: {}
+[6.028597] (robot_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[6.029167] (robot_description) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[6.093256] (-) TimerEvent: {}
+[6.194201] (-) TimerEvent: {}
+[6.216189] (robot_description) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[6.216798] (robot_description) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[6.294374] (-) TimerEvent: {}
+[6.399072] (-) TimerEvent: {}
+[6.405230] (robot_description) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[6.407943] (robot_description) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.499234] (-) TimerEvent: {}
+[6.599648] (-) TimerEvent: {}
+[6.700068] (-) TimerEvent: {}
+[6.800478] (-) TimerEvent: {}
+[6.900886] (-) TimerEvent: {}
+[7.001324] (-) TimerEvent: {}
+[7.101772] (-) TimerEvent: {}
+[7.187392] (robot_description) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[7.191949] (robot_description) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[7.201954] (-) TimerEvent: {}
+[7.222843] (robot_description) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[7.302107] (-) TimerEvent: {}
+[7.402522] (-) TimerEvent: {}
+[7.503018] (-) TimerEvent: {}
+[7.536352] (robot_description) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") \n'}
+[7.603101] (-) TimerEvent: {}
+[7.696374] (robot_description) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") \n'}
+[7.703206] (-) TimerEvent: {}
+[7.803703] (-) TimerEvent: {}
+[7.830115] (robot_description) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0") \n'}
+[7.903864] (-) TimerEvent: {}
+[7.920924] (robot_description) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[8.004085] (-) TimerEvent: {}
+[8.026041] (robot_description) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[8.097976] (robot_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[8.104297] (-) TimerEvent: {}
+[8.113766] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[8.144976] (robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[8.153140] (robot_description) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[8.154947] (robot_description) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[8.166684] (robot_description) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[8.201102] (robot_description) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[8.204467] (-) TimerEvent: {}
+[8.295616] (robot_description) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[8.305306] (-) TimerEvent: {}
+[8.328315] (robot_description) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[8.364875] (robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[8.389761] (robot_description) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[8.390256] (robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[8.405560] (-) TimerEvent: {}
+[8.413201] (robot_description) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[8.413531] (robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[8.436447] (robot_description) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[8.436893] (robot_description) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[8.463918] (robot_description) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[8.464418] (robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[8.488457] (robot_description) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[8.488984] (robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[8.506412] (-) TimerEvent: {}
+[8.517525] (robot_description) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[8.606605] (-) TimerEvent: {}
+[8.707117] (-) TimerEvent: {}
+[8.807663] (-) TimerEvent: {}
+[8.908198] (-) TimerEvent: {}
+[9.008979] (-) TimerEvent: {}
+[9.058722] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[9.065332] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.5.1\n'}
+[9.066545] (robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[9.109175] (-) TimerEvent: {}
+[9.140742] (robot_description) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[9.152866] (robot_description) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[9.195107] (robot_description) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[9.209351] (-) TimerEvent: {}
+[9.294430] (robot_description) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[9.308362] (robot_description) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[9.309510] (-) TimerEvent: {}
+[9.357385] (robot_description) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[9.409761] (-) TimerEvent: {}
+[9.480965] (robot_description) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[9.487751] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.1\n'}
+[9.488238] (robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[9.510374] (-) TimerEvent: {}
+[9.537692] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[9.551461] (robot_description) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[9.595181] (robot_description) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[9.611190] (-) TimerEvent: {}
+[9.689133] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.1\n'}
+[9.695658] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.17.1\n'}
+[9.698500] (robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[9.700965] (robot_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[9.703901] (robot_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[9.707848] (robot_description) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[9.711628] (-) TimerEvent: {}
+[9.734705] (robot_description) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[9.744489] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.17.1\n'}
+[9.748110] (robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[9.749068] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[9.763548] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.9.2\n'}
+[9.765951] (robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[9.811850] (-) TimerEvent: {}
+[9.912482] (-) TimerEvent: {}
+[9.951675] (robot_description) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  \n'}
+[9.979653] (robot_description) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[10.012062] (robot_description) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[10.013337] (-) TimerEvent: {}
+[10.109066] (robot_description) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[10.114053] (-) TimerEvent: {}
+[10.124019] (robot_description) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[10.162964] (robot_description) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[10.214321] (-) TimerEvent: {}
+[10.253477] (robot_description) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[10.256115] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.17.1\n'}
+[10.257839] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[10.259526] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.1\n'}
+[10.264656] (robot_description) StdoutLine: {'line': b'-- Gazebo version: 11.15\n'}
+[10.315120] (-) TimerEvent: {}
+[10.415759] (-) TimerEvent: {}
+[10.516314] (-) TimerEvent: {}
+[10.616889] (-) TimerEvent: {}
+[10.717366] (-) TimerEvent: {}
+[10.817780] (-) TimerEvent: {}
+[10.918223] (-) TimerEvent: {}
+[11.018755] (-) TimerEvent: {}
+[11.120094] (-) TimerEvent: {}
+[11.220726] (-) TimerEvent: {}
+[11.317845] (robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[11.320897] (-) TimerEvent: {}
+[11.421336] (-) TimerEvent: {}
+[11.521973] (-) TimerEvent: {}
+[11.542150] (robot_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[11.548903] (robot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[11.551017] (robot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.554609] (robot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[11.557532] (robot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.570353] (robot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.579444] (robot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[11.597591] (robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/luccapbs/Desktop/Robotica/APS2_ws/build/robot_description\n'}
+[11.611816] (robot_description) CommandEnded: {'returncode': 0}
+[11.629022] (-) TimerEvent: {}
+[11.629473] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'build'}
+[11.629546] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luccapbs/Desktop/Robotica/APS2_ws/build/robot_description', '--', '-j3', '-l3'], 'cwd': '/home/luccapbs/Desktop/Robotica/APS2_ws/build/robot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'luccapbs'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/luccapbs'), ('OLDPWD', '/home/luccapbs/Desktop/Robotica/APS2_ws/src'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1262'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'luccapbs'), ('JOURNAL_STREAM', '8:32688'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luccapbs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1328,unix/ubuntu:/tmp/.ICE-unix/1328'), ('INVOCATION_ID', '6133db70293447399ab1deaa27ca25a8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f1549df1_67c6_48f4_9c40_a0b81577d2da'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.20RO32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luccapbs/Desktop/Robotica/APS2_ws/build/robot_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-wayland:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[11.730408] (-) TimerEvent: {}
+[11.791216] (robot_description) CommandEnded: {'returncode': 0}
+[11.792744] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'install'}
+[11.805496] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/luccapbs/Desktop/Robotica/APS2_ws/build/robot_description'], 'cwd': '/home/luccapbs/Desktop/Robotica/APS2_ws/build/robot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'luccapbs'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/luccapbs'), ('OLDPWD', '/home/luccapbs/Desktop/Robotica/APS2_ws/src'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1262'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'luccapbs'), ('JOURNAL_STREAM', '8:32688'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luccapbs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1328,unix/ubuntu:/tmp/.ICE-unix/1328'), ('INVOCATION_ID', '6133db70293447399ab1deaa27ca25a8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f1549df1_67c6_48f4_9c40_a0b81577d2da'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.20RO32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luccapbs/Desktop/Robotica/APS2_ws/build/robot_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-wayland:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[11.830637] (-) TimerEvent: {}
+[11.832618] (robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.833372] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//urdf\n'}
+[11.833991] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//urdf/robot.urdf.xacro\n'}
+[11.834550] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//urdf/inertial_macros.xacro\n'}
+[11.835128] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//urdf/robot_core.xacro\n'}
+[11.835678] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//urdf/sensors.xacro\n'}
+[11.836143] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//launch\n'}
+[11.836583] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//launch/robot_simulation.launch.py\n'}
+[11.837044] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//rviz\n'}
+[11.837487] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//rviz/robot_vis.rviz\n'}
+[11.837970] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//world\n'}
+[11.838384] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//world/house\n'}
+[11.838794] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//world/house/model.sdf\n'}
+[11.839361] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//world/house/model.config\n'}
+[11.839860] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description//world/world.world\n'}
+[11.840875] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description\n'}
+[11.841605] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description\n'}
+[11.842280] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh\n'}
+[11.842881] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv\n'}
+[11.846983] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description/environment/path.sh\n'}
+[11.847298] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description/environment/path.dsv\n'}
+[11.847487] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description/local_setup.bash\n'}
+[11.847660] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description/local_setup.sh\n'}
+[11.847839] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description/local_setup.zsh\n'}
+[11.848007] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description/local_setup.dsv\n'}
+[11.848218] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description/package.dsv\n'}
+[11.848391] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description\n'}
+[11.848567] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake\n'}
+[11.848735] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake\n'}
+[11.848906] (robot_description) StdoutLine: {'line': b'-- Installing: /home/luccapbs/Desktop/Robotica/APS2_ws/install/robot_description/share/robot_description/package.xml\n'}
+[11.867312] (robot_description) CommandEnded: {'returncode': 0}
+[11.916216] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[11.917685] (-) EventReactorShutdown: {}

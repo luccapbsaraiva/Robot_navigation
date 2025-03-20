@@ -1,0 +1,24 @@
+[1.961s] Invoking command in '/home/luccapbs/Desktop/Robotica/APS2_ws/src/navigation': PYTHONPATH=/home/luccapbs/Desktop/Robotica/APS2_ws/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luccapbs/Desktop/Robotica/APS2_ws/install/navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigation build --build-base /home/luccapbs/Desktop/Robotica/APS2_ws/build/navigation/build install --record /home/luccapbs/Desktop/Robotica/APS2_ws/build/navigation/install.log --install-scripts $base/lib/navigation --single-version-externally-managed install_data
+[2.607s] running egg_info
+[2.609s] writing ../../build/navigation/navigation.egg-info/PKG-INFO
+[2.614s] writing dependency_links to ../../build/navigation/navigation.egg-info/dependency_links.txt
+[2.614s] writing entry points to ../../build/navigation/navigation.egg-info/entry_points.txt
+[2.615s] writing requirements to ../../build/navigation/navigation.egg-info/requires.txt
+[2.615s] writing top-level names to ../../build/navigation/navigation.egg-info/top_level.txt
+[2.723s] reading manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[2.729s] writing manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[2.729s] running build
+[2.730s] running build_py
+[2.730s] copying navigation/lidar_node.py -> /home/luccapbs/Desktop/Robotica/APS2_ws/build/navigation/build/lib/navigation
+[2.730s] running install
+[2.733s] running install_lib
+[2.738s] copying /home/luccapbs/Desktop/Robotica/APS2_ws/build/navigation/build/lib/navigation/lidar_node.py -> /home/luccapbs/Desktop/Robotica/APS2_ws/install/navigation/lib/python3.8/site-packages/navigation
+[2.738s] byte-compiling /home/luccapbs/Desktop/Robotica/APS2_ws/install/navigation/lib/python3.8/site-packages/navigation/lidar_node.py to lidar_node.cpython-38.pyc
+[2.738s] running install_data
+[2.739s] running install_egg_info
+[2.745s] removing '/home/luccapbs/Desktop/Robotica/APS2_ws/install/navigation/lib/python3.8/site-packages/navigation-0.0.0-py3.8.egg-info' (and everything under it)
+[2.746s] Copying ../../build/navigation/navigation.egg-info to /home/luccapbs/Desktop/Robotica/APS2_ws/install/navigation/lib/python3.8/site-packages/navigation-0.0.0-py3.8.egg-info
+[2.748s] running install_scripts
+[2.800s] Installing lidar script to /home/luccapbs/Desktop/Robotica/APS2_ws/install/navigation/lib/navigation
+[2.800s] writing list of installed files to '/home/luccapbs/Desktop/Robotica/APS2_ws/build/navigation/install.log'
+[2.861s] Invoked command in '/home/luccapbs/Desktop/Robotica/APS2_ws/src/navigation' returned '0': PYTHONPATH=/home/luccapbs/Desktop/Robotica/APS2_ws/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luccapbs/Desktop/Robotica/APS2_ws/install/navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigation build --build-base /home/luccapbs/Desktop/Robotica/APS2_ws/build/navigation/build install --record /home/luccapbs/Desktop/Robotica/APS2_ws/build/navigation/install.log --install-scripts $base/lib/navigation --single-version-externally-managed install_data

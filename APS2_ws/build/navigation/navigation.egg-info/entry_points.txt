@@ -1,3 +1,0 @@
-[console_scripts]
-main = navigation.lidar_node:main
-

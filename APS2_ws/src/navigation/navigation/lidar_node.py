@@ -18,11 +18,12 @@ class Main_node(Node):
 
     def subscription_callback(self, msg):
         msg_twist = Twist()
-        flag = False
         dist_min = 0.45
-        dist = np.min(msg.ranges)
-        interval = list(msg.ranges[-26:0])
-        if dist >= dist_min:
+        start_idx = int(((-0.785 - msg.angle_min) / msg.angle_increment))
+        end_idx = int(((0.785 - msg.angle_min) / msg.angle_increment))
+        scan_45deg = msg.ranges[start_idx:end_idx]
+        dist = np.min(scan_45deg)
+        if dist > dist_min:
             flag = True
             msg_twist.linear.x = 0.1
             self.publisher.publish(msg_twist)
@@ -30,8 +31,8 @@ class Main_node(Node):
         else:
             msg_twist.linear.x = 0.0
             self.publisher.publish(msg_twist)
-            self.get_logger().info(f'Obstáculo a: {dist:.2f} m | FLAG: {flag}')
-        self.get_logger().info(f'intervalo: {interval}')
+            self.get_logger().info(f'Obstáculo a: {dist:.2f} m')
+        self.get_logger().info(f'Frente: {scan_45deg}')
 
 
 def main(args=None):

@@ -23,7 +23,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'main = navigation.lidar_node:main'
+            'main = navigation.lidar_node:main',
+            'rotation = navigation.rotation_node:main'
         ],
     },
 )

@@ -8,12 +8,22 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
   
+    Rotation_node = Node(
+        package = 'navigation',
+        executable = 'rotation'
+    )
+
+
+    
+    return launch.LaunchDescription([
+        #main_node,
+        Rotation_node
+    ])
+
+
+'''
     main_node = Node(
         package = 'navigation',
         executable ='main',
     )
-
-    
-    return launch.LaunchDescription([
-        main_node,
-    ])
+    '''

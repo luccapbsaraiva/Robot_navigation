@@ -28,13 +28,7 @@ def generate_launch_description():
                 launch_arguments={'world': os.path.join(description_package_path, 'world', world_file_name)}.items()
              )
     
-    lidar_launch = IncludeLaunchDescription(
-                PythonLaunchDescriptionSource([
-                    os.path.join(
-                        get_package_share_directory('navigation'),
-                        'launch',
-                        'lidar_node.launch.py')])
-            )
+    
 
     # Runs the robot state publisher node
     robot_state_publisher = Node(
@@ -68,7 +62,7 @@ def generate_launch_description():
         robot_state_publisher,
         rviz_node,
         spawn_entity,
-        lidar_launch
+        
 
     ])
 

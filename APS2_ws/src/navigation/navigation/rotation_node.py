@@ -21,6 +21,8 @@ class Rotation(Node):
     def odometry_callback(self, msg):
         angle_twist = Twist()
         atitude = msg.pose.pose.orientation
+        position_x = msg.pose.pose.position.x
+        position_y = msg.pose.pose.position.y
         z = atitude.z
         w = atitude.w
         yaw = 2*math.atan2(z, w)
@@ -37,7 +39,7 @@ class Rotation(Node):
             angle_twist.angular.z = 0.0
             self.publisher.publish(angle_twist)
 
-        self.get_logger().info(f"Yaw: {self.corr_yaw:.2f}")
+        self.get_logger().info(f"X: {position_x:.2f} | Y: {position_y:.2f}")
         
 
 

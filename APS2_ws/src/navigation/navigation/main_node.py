@@ -33,8 +33,14 @@ class Main_node(Node):
         self.lim_obstacle = float('inf')
         self.waypoints = [
             {'yaw': 4.70, 'dist': 1.5},
-            {'yaw': 3.14, 'dist': 3},
-            {'yaw': 1.57, 'dist': 3}
+            {'yaw': 3.14, 'dist': 8.15},
+            {'yaw': 1.57, 'dist': 1.65},
+            {'yaw': 3.14, 'dist': 2.8},
+            {'yaw': 1.57, 'dist': 1.9},
+            {'yaw': 0.0, 'dist': 2.75},
+            {'yaw': 4.70, 'dist': 7.0}
+
+
 
         ]
         self.current_waypoint = 0

@@ -47,9 +47,14 @@ class Rotation(Node):
         self.get_logger().info(f"Rotating to {target_yaw:.2f} radians")
 
         twist = Twist()
-        twist.angular.z =0.5
+        if target_yaw - self.current_yaw < 0 and abs(self.current_yaw)<0.1:
+            twist.angular.z =-0.5
+        elif target_yaw - self.current_yaw < 0:
+            twist.angular.z =-0.5
+        else:
+            twist.angular.z =0.5
 
-        while abs(target_yaw - self.current_yaw) > 0.08:
+        while abs(target_yaw - self.current_yaw) > 0.09:
             self.publisher.publish(twist)
             self.get_logger().info(f"Dif: {target_yaw - self.current_yaw}")
             goal_handle.publish_feedback(RotateAbsolute.Feedback())
